@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+    <item android:id="@+id/item1"
+            android:checked="true"
+            android:title="QR CODE"/>
+    <item android:id="@+id/item2"
+        android:title="BAR CODE"/>
+    </group>
+
+    <item android:id="@+id/item_color"
+    android:checkable="true"
+    android:checked="false"
+    android:title="색상적용하기"/>
+</menu>
